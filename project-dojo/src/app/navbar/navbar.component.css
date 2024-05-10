@@ -1,0 +1,25 @@
+.bg-red {
+    background-color: #ffffff !important;
+}
+
+.search {
+    border-radius: 50px;
+    padding-left: 50px;
+    /* Adjust this value to position the icon properly */
+    background-image: url('../../assets/Rename.png');
+    /* Replace 'search-icon.png' with the path to your icon */
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    /* Adjust the position of the icon */
+    background-size: 20px;
+    /* Adjust the size of the icon */
+    border: 1px solid #ccc;
+    width: 200px;
+}
+.line {
+    position: relative;
+    width: 100%;
+    height: 1px;
+    background-color: #ccc;
+  }
+  
