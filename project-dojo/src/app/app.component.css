@@ -1,0 +1,44 @@
+/* styles.css or your component-specific CSS file */
+.container {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    /* 100% of viewport width */
+    height: 100vh;
+    /* 100% of viewport height */
+}
+ 
+  .app-navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Adjust as needed */
+  }
+  
+  .main-content {
+    display: flex;
+    height: calc(100% - 4rem); /* Adjust for navbar height */
+    overflow: hidden; /* Hide overflow from sidebar */
+  }
+  
+  .sidebar {
+    position: fixed;
+    top: 8rem; /* Adjust for navbar height */
+    left: 20;
+    width: 20%; /* Adjust width as needed */
+    height: calc(100% - 4rem); /* Adjust for navbar height */
+    overflow-y: auto; /* Allow sidebar content to scroll */
+    z-index: 900; /* Adjust as needed */
+  }
+  
+  .content {
+    margin-left: 20%; /* Adjust for sidebar width */
+    width: 80%; /* Adjust width as needed */
+    height: 100%;
+    overflow-y: auto; /* Allow content to scroll */
+  }
+  
+  /* Adjust styling as needed */
+  

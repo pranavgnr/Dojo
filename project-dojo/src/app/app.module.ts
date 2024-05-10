@@ -5,11 +5,17 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { TestmenuComponent } from './testmenu/testmenu.component';
+import { TestComponent } from './test/test.component';
+import { SidebarComponent } from './sidebar/sidebar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    NavbarComponent
+    NavbarComponent,
+    TestmenuComponent,
+    TestComponent,
+    SidebarComponent
   ],
   imports: [
     BrowserModule,

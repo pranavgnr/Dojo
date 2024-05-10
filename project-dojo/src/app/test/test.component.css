@@ -1,0 +1,13 @@
+/* feed.component.css */
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .card {
+    margin-bottom: 20px;
+  }
+  
+  .spinner-border {
+    margin-top: 20px;
+  }
